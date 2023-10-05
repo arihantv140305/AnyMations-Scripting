@@ -1,0 +1,2 @@
+# Transit Simulation
+To make this simulation i have considered a `n*n` grid of points and imagined a star centred at the centre of the grid . Then I assignedd on/off values to all points ont the grid to indicate which points makes the star. Then as i passed the planet in front of the star i updated the on/off values using the `update_i` function. The `get_i` duntion is used to get the instensity by calculating the number of points with on position. I then plotted it against time.
